@@ -2,7 +2,7 @@ Package: ggantt
 Title: Create Gantt Charts With Ggplot2
 Version: 0.0.0.9000
 Authors@R: c(person("Fernando", "Correa", email = "fcorrea@abjur.org.br", role = c("aut", "cre")),
-             person("Julio", "Trecenti",  email = "jtrecenti@abjur.org.br", role = c("aut", "cre")))
+             person("Julio", "Trecenti",  email = "jtrecenti@abjur.org.br", role = c("aut")))
 Description: Creates simple, beautiful and pipeable gantt charts using ggplot2.
 Depends: R (>= 3.4.1)
 License: MIT + file LICENSE
