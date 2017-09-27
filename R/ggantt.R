@@ -14,7 +14,7 @@ ggplot2::theme(legend.position = 'bottom',
 #' )
 #' ggantt(tasks)
 ggantt <- function(dataset, label = 'nome', start = 'start_date', end = 'end_date', cor = 'royalblue'){
-ggplot2::ggplot(dataset,ggplot2::aes_string(x = start, xend = end, y = label, yend = label, color = cor)) +
+ggplot2::ggplot(dataset, ggplot2::aes(x = start, xend = end, y = label, yend = label, color = cor)) +
   ggplot2::geom_segment(lineend = 'round', size = 8) +
   ggplot2::labs(y = '') + 
   ggant_theme
